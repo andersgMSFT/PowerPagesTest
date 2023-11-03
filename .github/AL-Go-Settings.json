@@ -1,10 +1,10 @@
 {
   "type": "PTE",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@PPPreview",
-  "powerPlatformSolutionFolder": "CoffeMR",
+  "powerPlatformSolutionFolder": "PowerPageSolutionTest",
   "environments": [
     "Dev",
-	  "Target"
+    "Target"
   ],
   "DeployToDev": {
     "environmentName": "Sandbox",

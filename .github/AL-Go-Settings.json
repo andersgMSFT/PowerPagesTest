@@ -1,13 +1,19 @@
 {
   "type": "PTE",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@PPPreview",
-  "powerPlatformSolutionFolder": "PowerPageSolutionTest",
+  "powerPlatformSolutionFolder": "CoffeMR",
   "environments": [
-    "Dev"
+    "Dev",
+	  "Target"
   ],
   "DeployToDev": {
     "environmentName": "Sandbox",
     "companyId": "7368d553-0c5c-ee11-8df4-6045bdc89477",
-    "ppEnvironmentUrl": "https://org8e5cbc5f.crm.dynamics.com/"
+    "ppEnvironmentUrl": "https://org12e71492.crm.dynamics.com/"
+  },
+  "DeployToTarget": {
+    "environmentName": "Sandbox",
+    "companyId": "7368d553-0c5c-ee11-8df4-6045bdc89477",
+    "ppEnvironmentUrl": "https://orga424442f.crm.dynamics.com/"
   }
 }
